@@ -1,0 +1,13 @@
+{
+  "cors_allowed_origin": "http://localhost:5173",
+  "api_port": ":8080",
+  "api_max_reviews_age": "48h",
+  "url_template": "https://itunes.apple.com/us/rss/customerreviews/id=%s/sortBy=mostRecent/page=%d/json",
+  "poll_interval": "10m",
+  "pagination_limit": 10,
+  "app_ids": [
+    "447188370",
+    "544007664",
+    "595068606"
+  ]
+}
